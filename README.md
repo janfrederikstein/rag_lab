@@ -11,13 +11,15 @@
 # Virtual Environments
 
 ### Windows (PowerShell):
-1. ```py -m venv .RAG_lab```
+1. ```python3 -m venv .RAG_lab```
 
-2. ```.\.RAG_lab\Scripts\Activate.ps1```
+2. ```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned``` (use this is running scripts is disabled for some reason)
 
-3. ```python -m pip install -U pip```
+3. ```.\.RAG_lab\Scripts\Activate.ps1```
 
-4. ```python -m pip install -r requirements.txt```
+4. ```python3 -m pip install -U pip```
+
+5. ```python3 -m pip install -r requirements.txt```
 
 ##### to turn it off: ```deactivate```
 
